@@ -58,7 +58,8 @@ function addition(a, b) {
   // Fonction qui calcul un prix
   function calculateTotal(price, quantity) {
     const total = price * quantity
-    return total + calculateTax(total)
+    const tax = this.calculateTax(total)
+    return total + tax
   };
   
   
