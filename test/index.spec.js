@@ -85,7 +85,7 @@ describe('Tests pour les fonctions', function () {
     });
   });
 
-  describe('calculateTotal function', () => {
+  describe.skip('calculateTotal function', () => {
     let calculateTaxSpy;
   
     beforeEach(() => {

@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha"
+    "test": "npx mocha",
+    "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.5.0",
+    "husky": "^9.1.7",
     "mocha": "^11.1.0",
     "sinon": "^18.0.1"
   }
